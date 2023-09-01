@@ -1,0 +1,12 @@
+[
+    {
+        "title": "CodeBlog",
+        "description": "A blog site inclined towards CSE students. Gives users the ability to create, edit or delete their blogs. The blogs have a detailed descripion alongwith a code editor for programs.",
+        "link":"https://github.com/AteebHussain/CodeBlog"
+    },
+    {
+        "title": "PortScann",
+        "description": "Being an Open Source Intelligence enthusiast, I made this port scanner using python. It's a simple 40-line code program which can scan 5000 ports accurately and tell which one is open. Good for web security.",
+        "link": "https://github.com/AteebHussain/PortScann"
+    }
+]

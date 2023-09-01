@@ -1,0 +1,58 @@
+[
+	{
+		"name": "ReactJs",
+		"image": "/img/react.png"
+	},
+	{
+		"name": "NodeJs",
+		"image": "/img/node.png"
+	},
+	{
+		"name": "ExpressJs",
+		"image": "/img/express.png"
+	},
+	{
+		"name": "MongoDB",
+		"image": "/img/mongo.png"
+	},
+	{
+		"name": "MySQL",
+		"image": "/img/sql.png"
+	},
+	{
+		"name": "Javascript",
+		"image": "/img/js.png"
+	},
+	{
+		"name": "C++ ",
+		"image": "/img/cplus.png"
+	},
+	{
+		"name": "Python ",
+		"image": "/img/python.png"
+	},
+	{
+		"name": "Tailwind CSS",
+		"image": "/img/tailwind.png"
+	},
+	{
+		"name": "Git",
+		"image": "/img/Git-Icon.png"
+	},
+	{
+		"name": "GitHub ",
+		"image": "/img/github.png"
+	},
+	{
+		"name": "Photography ",
+		"image": "/img/photo.png"
+	},
+	{
+		"name": "Photoshop ",
+		"image": "/img/ps.png"
+	},
+	{
+		"name": "Lightroom ",
+		"image": "/img/lr.png"
+	}
+]

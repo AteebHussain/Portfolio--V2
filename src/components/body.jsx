@@ -15,7 +15,7 @@ function Body() {
 			<article className='w-[18rem] mx-auto  md:w-1/2 lg:w-1/2'>
 				<div className='flex flex-wrap items-center gap-6 text-[1.4rem]'>
 					<img
-						src='https://github.com/AteebHussain.png'
+						src='/img/pfp1.jpg'
 						alt='syedateeb'
 						className='h-20 rounded-full'
 					/>

@@ -1,7 +1,7 @@
 {
   "name": "myfirstapp",
   "version": "0.1.0",
-  "private": true,
+  "private": true,   
   "dependencies": {
     "@floating-ui/react": "^0.27.19",
     "@phosphor-icons/react": "^2.1.10",

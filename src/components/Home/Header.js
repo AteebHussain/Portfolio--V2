@@ -130,7 +130,7 @@ const Header = () => {
       )}
 
       <header className={`header-root sticky top-0 z-50 w-full px-8 md:px-16 py-5 flex items-center justify-between ${scrolled ? "scrolled" : ""}`}>
-        <a href="#" className="flex items-center gap-3">
+<a href="/" className="flex items-center gap-3">
           <img src="/img/A-removebg-preview.png" alt="Logo" className="h-9 w-9 object-contain filter brightness-110" />
           <span className="font-black text-lg tracking-tighter text-white hidden sm:block">
             ATEEB<span className="logo-dot" />

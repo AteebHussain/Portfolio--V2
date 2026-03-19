@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { Terminal, ArrowRight, Download } from "@phosphor-icons/react";
-import { useEffect, useRef, useState } from "react";
-
+import { useEffect, useState } from "react";
 const ROLES = ["Software Engineer", "Digital Twin Dev", "AI Builder", "Full-Stack Dev"];
 
 const GlitchText = ({ text }) => {

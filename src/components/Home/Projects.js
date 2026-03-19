@@ -206,7 +206,7 @@ const Projects = () => {
                   <div className="flex items-center gap-3 mb-1">
                     <span className="font-mono text-[10px] uppercase tracking-widest" style={{ color: p.accent }}>{p.id}</span>
                     <h3 className="text-base font-black tracking-tighter text-white">{p.title}</h3>
-                    <span className="text-white/30 font-mono text-[10px] hidden md:block">// {p.subtitle}</span>
+<span className="text-white/30 font-mono text-[10px] hidden md:block">{"// "}{p.subtitle}</span>
                   </div>
                   <p className="text-white/40 text-xs leading-relaxed line-clamp-1">{p.desc}</p>
                 </div>

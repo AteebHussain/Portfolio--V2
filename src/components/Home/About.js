@@ -136,11 +136,6 @@ const About = () => {
                     style={{ filter: "grayscale(40%) contrast(1.05)" }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-cyber-black/80 via-transparent to-transparent" />
-                  <div className="absolute bottom-6 left-6 right-6">
-                    <div className="font-mono text-xs text-white/40 uppercase tracking-widest mb-1">Identified as</div>
-                    <div className="text-white font-black text-xl tracking-tighter">SYED ATEEB</div>
-                    <div className="text-cyber-yellow font-mono text-xs mt-0.5">Sr. Software Engineer</div>
-                  </div>
                 </div>
               </div>
               <div className="absolute -right-4 top-8 bottom-8 w-px bg-gradient-to-b from-transparent via-cyber-yellow/30 to-transparent" />

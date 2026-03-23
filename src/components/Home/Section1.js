@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Terminal, ArrowRight, Download } from "@phosphor-icons/react";
+import { ArrowRight, Download } from "@phosphor-icons/react";
 import { useEffect, useState } from "react";
 const ROLES = ["Software Engineer", "Digital Twin Dev", "AI Builder", "Full-Stack Dev"];
 
@@ -175,7 +175,7 @@ const Sec1 = () => {
         }
       `}</style>
 
-      <div className="relative min-h-screen flex items-center bg-cyber-black overflow-hidden pt-20">
+      <div className="relative min-h-screen flex items-center bg-cyber-black overflow-hidden">
         <div className="absolute inset-0 cyber-grid opacity-40 z-0" />
         <div className="absolute inset-0 scanline z-0" />
         <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-cyber-black to-transparent z-0" />
@@ -188,25 +188,7 @@ const Sec1 = () => {
 
             {/* LEFT */}
             <div>
-              <motion.div
-                initial={{ opacity: 0, y: -10 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-                className="terminal-badge inline-flex items-center gap-2 px-3 py-1.5 rounded-sm text-cyber-yellow text-xs font-mono uppercase tracking-widest mb-8"
-              >
-                <Terminal size={12} weight="bold" />
-                <span>System Online // v2.0</span>
-                <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-              </motion.div>
 
-              <motion.p
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5, delay: 0.1 }}
-                className="text-white/40 font-mono text-sm uppercase tracking-[0.3em] mb-3"
-              >
-                Hello, World. I'm
-              </motion.p>
 
               <motion.h1
                 initial={{ opacity: 0, y: 20 }}
@@ -245,8 +227,7 @@ const Sec1 = () => {
                 transition={{ delay: 0.75 }}
                 className="text-white/50 max-w-lg leading-relaxed mb-10 text-sm md:text-base"
               >
-                Building digital-twin systems, AI dashboards, and modern full-stack products at{" "}
-                <span className="text-white/80 font-semibold">Tata Consulting Engineers</span>.
+                Building digital-twin systems, AI dashboards, and modern full-stack products.
                 Based in India. Shipping things that matter.
               </motion.p>
 
@@ -272,8 +253,8 @@ const Sec1 = () => {
               >
                 {[
                   { val: "2+", label: "Yrs Experience" },
-                  { val: "3+", label: "Live Projects" },
-                  { val: "TCE", label: "Current Employer" },
+                  { val: "4+", label: "Live Projects" },
+                  { val: "10+", label: "Tech Skills" },
                 ].map((s, i) => (
                   <div key={i} className="stat-card p-4 rounded-sm">
                     <div className="text-2xl font-black text-cyber-yellow font-mono">{s.val}</div>

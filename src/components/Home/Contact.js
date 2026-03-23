@@ -1,13 +1,12 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { InstagramLogo, LinkedinLogo, GithubLogo, EnvelopeSimple, ArrowRight } from "@phosphor-icons/react";
+import { InstagramLogo, LinkedinLogo, GithubLogo, ArrowRight } from "@phosphor-icons/react";
 
 const SOCIALS = [
-  { icon: <LinkedinLogo size={20} />, href: "https://www.linkedin.com/in/syed-ateeb-359867225/", label: "LinkedIn" },
-  { icon: <GithubLogo size={20} />, href: "https://github.com", label: "GitHub" },
-  { icon: <InstagramLogo size={20} />, href: "http://www.instagram.com/ateeeeeeeb_", label: "Instagram" },
-  { icon: <EnvelopeSimple size={20} />, href: "mailto:syedateebhussain123@gmail.com", label: "Email" },
+  { icon: <GithubLogo size={20} />, href: "https://github.com/AteebHussain", label: "GitHub" },
+  { icon: <LinkedinLogo size={20} />, href: "https://www.linkedin.com/in/syed-ateeb-401358295/", label: "LinkedIn" },
+  { icon: <InstagramLogo size={20} />, href: "https://www.instagram.com/ateeeeeeeb_/?hl=en", label: "Instagram" },
 ];
 
 const Contact = () => {
@@ -121,7 +120,7 @@ const Contact = () => {
           </p>
 
           <div data-aos="fade-up" data-aos-delay="180" className="mb-16">
-            <a href="mailto:syedateebhussain123@gmail.com" className="say-hello-btn">
+            <a href="mailto:syedateeb100@gmail.com" className="say-hello-btn">
               <span>SAY HELLO</span>
               <ArrowRight size={16} weight="bold" />
             </a>

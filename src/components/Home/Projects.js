@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { GithubLogo, ArrowSquareOut, ArrowRight } from "@phosphor-icons/react";
+import { GithubLogo, ArrowSquareOut } from "@phosphor-icons/react";
 
 const PROJECTS = [
   {
@@ -11,8 +11,8 @@ const PROJECTS = [
     desc: "Side-by-side LLM comparison with real-time SSE streaming. Built with Next.js, OpenRouter, and Tailwind v4. Intentional dark charcoal design system with amber as a single accent — no vibe-coded chaos.",
     tags: ["Next.js", "TypeScript", "OpenRouter", "Framer Motion", "Tailwind v4"],
     accent: "#F7BB2E",
-    github: "#",
-    live: "#",
+    github: "https://github.com/AteebHussain/Parallel-AI",
+    live: "https://parallel-ai-theta.vercel.app/",
     featured: true,
   },
   {
@@ -22,8 +22,8 @@ const PROJECTS = [
     desc: "Paste a URL, get a structured visual brief in seconds. Streaming Gemini API responses, content-type theming, bias detection, and a DM Sans/Syne font system. Deployed on Vercel.",
     tags: ["Next.js", "Gemini API", "Streaming", "Vercel"],
     accent: "#E14842",
-    github: "#",
-    live: "#",
+    github: "https://github.com/AteebHussain/Skim-It",
+    live: "https://skim-it.vercel.app/",
     featured: true,
   },
   {
@@ -33,8 +33,8 @@ const PROJECTS = [
     desc: "D3 force-directed graph for database schemas with query optimization hints. CodeMirror 6 editor, Zustand state, node-sql-parser, and Gemini API under the hood.",
     tags: ["React", "D3.js", "Gemini API", "Zustand", "CodeMirror 6"],
     accent: "#00f0ff",
-    github: "#",
-    live: "https://schemalens-omega.vercel.app",
+    github: "https://github.com/AteebHussain/Schema-Lens",
+    live: "https://schemalens-omega.vercel.app/",
     featured: true,
   },
   {
@@ -44,8 +44,8 @@ const PROJECTS = [
     desc: "Three.js 3D yard visualization with Socket.io telemetry, a simulation engine, RBAC, and historical playback. Next.js 14 + Azure SQL + Prisma. Hard constraint: everything free.",
     tags: ["Next.js 14", "Three.js", "Socket.io", "Prisma", "Azure SQL"],
     accent: "#76b900",
-    github: "#",
-    live: "#",
+    github: "https://github.com/AteebHussain/Iron-Watch",
+    live: null,
     featured: false,
   },
 ];
@@ -179,8 +179,12 @@ const Projects = () => {
                     <h3 className="text-xl font-black tracking-tighter text-white">{p.title}</h3>
                   </div>
                   <div className="flex gap-2">
-                    <a href={p.github} className="icon-btn" title="GitHub"><GithubLogo size={16} /></a>
-                    <a href={p.live} className="icon-btn" title="Live"><ArrowSquareOut size={16} /></a>
+                    <a href={p.github} target="_blank" rel="noreferrer" className="icon-btn" title="GitHub"><GithubLogo size={16} /></a>
+                    {p.live ? (
+                      <a href={p.live} target="_blank" rel="noreferrer" className="icon-btn" title="Live"><ArrowSquareOut size={16} /></a>
+                    ) : (
+                      <span className="font-mono text-[9px] uppercase tracking-widest px-2 py-1 rounded-sm border border-white/10 text-white/30">WIP</span>
+                    )}
                   </div>
                 </div>
                 <p className="text-white/50 text-sm leading-relaxed mb-6">{p.desc}</p>
@@ -214,19 +218,18 @@ const Projects = () => {
                   {p.tags.slice(0, 3).map((t, j) => <span key={j} className="tag-chip">{t}</span>)}
                 </div>
                 <div className="flex gap-2 flex-shrink-0">
-                  <a href={p.github} className="icon-btn"><GithubLogo size={15} /></a>
-                  <a href={p.live} className="icon-btn"><ArrowSquareOut size={15} /></a>
+                  <a href={p.github} target="_blank" rel="noreferrer" className="icon-btn"><GithubLogo size={15} /></a>
+                  {p.live ? (
+                    <a href={p.live} target="_blank" rel="noreferrer" className="icon-btn"><ArrowSquareOut size={15} /></a>
+                  ) : (
+                    <span className="font-mono text-[9px] uppercase tracking-widest px-2 py-1 rounded-sm border border-white/10 text-white/30">WIP</span>
+                  )}
                 </div>
               </div>
             </div>
           ))}
 
-          <div data-aos="fade-up" className="mt-12 text-center">
-            <a href="https://github.com" target="_blank" rel="noreferrer"
-              className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-widest text-white/30 hover:text-cyber-yellow transition-colors duration-300">
-              <GithubLogo size={16} /> More on GitHub <ArrowRight size={14} />
-            </a>
-          </div>
+
 
         </div>
       </div>

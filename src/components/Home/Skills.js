@@ -10,8 +10,8 @@ const Skills = () => {
     <>
       <style>{`
         .bento-card {
-          border: 1px solid rgba(255,255,255,0.06);
-          background: rgba(255,255,255,0.025);
+          border: 1px solid rgba(255,255,255,0.10);
+          background: rgba(255,255,255,0.06);
           backdrop-filter: blur(12px);
           border-radius: 4px;
           transition: border-color 0.3s ease, transform 0.3s ease;

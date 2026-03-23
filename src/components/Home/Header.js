@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { GithubLogo, LinkedinLogo, List, X } from "@phosphor-icons/react";
+import { List, X } from "@phosphor-icons/react";
 
 const NAV_ITEMS = [
   { label: "About", href: "#about" },
@@ -130,11 +130,8 @@ const Header = () => {
       )}
 
       <header className={`header-root sticky top-0 z-50 w-full px-8 md:px-16 py-5 flex items-center justify-between ${scrolled ? "scrolled" : ""}`}>
-<a href="/" className="flex items-center gap-3">
-          <img src="/img/A-removebg-preview.png" alt="Logo" className="h-9 w-9 object-contain filter brightness-110" />
-          <span className="font-black text-lg tracking-tighter text-white hidden sm:block">
-            ATEEB<span className="logo-dot" />
-          </span>
+<a href="/" className="flex items-center">
+          <img src="/img/A-removebg-preview.png" alt="Logo" className="h-12 w-12 object-contain filter brightness-110" />
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
@@ -147,15 +144,6 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center gap-4">
-          <div className="hidden md:flex items-center gap-3">
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="social-icon">
-              <GithubLogo size={20} weight="fill" />
-            </a>
-            <a href="https://www.linkedin.com/in/syed-ateeb-359867225/" target="_blank" rel="noreferrer" className="social-icon">
-              <LinkedinLogo size={20} weight="fill" />
-            </a>
-          </div>
-          <a href="/Resume.pdf" target="_blank" className="resume-btn hidden md:block">Resume</a>
           <button className="md:hidden text-white/50 hover:text-white" onClick={() => setMenuOpen(true)}>
             <List size={24} />
           </button>

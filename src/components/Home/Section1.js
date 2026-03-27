@@ -228,7 +228,7 @@ const Sec1 = () => {
                 className="text-white/50 max-w-lg leading-relaxed mb-10 text-sm md:text-base"
               >
                 Building digital-twin systems, AI dashboards, and modern full-stack products.
-                Based in India. Shipping things that matter.
+                Based in India.
               </motion.p>
 
               <motion.div
@@ -283,10 +283,10 @@ const Sec1 = () => {
 
               <div className="relative w-56 h-56 rounded-full overflow-hidden border-2 border-cyber-yellow/30 shadow-[0_0_60px_rgba(247,187,46,0.15)]">
                 <img
-                  src="/img/20220810_213711.jpg"
+                  src="/img/IMG_5535.jpeg"
                   alt="Syed Ateeb"
                   className="w-full h-full object-cover"
-                  style={{ filter: "grayscale(60%) contrast(1.1)" }}
+                  style={{ filter: "grayscale(60%) contrast(1.1)", objectPosition: "center top" }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-cyber-black/60 via-transparent to-transparent" />
               </div>

@@ -82,15 +82,14 @@ const About = () => {
             <div>
               <div data-aos="fade-up" data-aos-delay="50" className="mb-8">
                 <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-white leading-tight mb-4">
-                  I build things that{" "}
+                  I just like to{" "}
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyber-red to-cyber-yellow">
-                    live on machines.
+                    know things.
                   </span>
                 </h2>
                 <p className="text-white/50 leading-relaxed max-w-xl text-sm md:text-base">
                   Started with web dev in 2021 out of curiosity. Ended up at a major engineering firm building
                   digital twin systems with NVIDIA Isaac Sim, enterprise dashboards, and modern full-stack products.
-                  I care about design, performance, and not building things that already exist.
                 </p>
               </div>
 
@@ -130,10 +129,10 @@ const About = () => {
               <div className="about-photo-frame">
                 <div className="about-photo-inner">
                   <img
-                    src="/img/20220810_213711.jpg"
+                    src="/img/IMG_7085.jpeg"
                     alt="Syed Ateeb"
                     className="w-full object-cover aspect-[3/4]"
-                    style={{ filter: "grayscale(40%) contrast(1.05)" }}
+                    style={{ filter: "grayscale(40%) contrast(1.05)", objectPosition: "center top" }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-cyber-black/80 via-transparent to-transparent" />
                 </div>

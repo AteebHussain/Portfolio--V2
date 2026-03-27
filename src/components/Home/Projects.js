@@ -152,7 +152,7 @@ const Projects = () => {
           <div className="flex flex-col lg:flex-row gap-10 items-start mb-14" data-aos="fade-up" data-aos-delay="50">
             <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-white leading-tight flex-shrink-0">
               Things I've<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyber-red to-cyber-yellow">shipped.</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyber-red to-cyber-yellow">built.</span>
             </h2>
             <p className="text-white/40 text-sm leading-relaxed max-w-md mt-2">
               Personal projects built for real problems — not tutorials. Each one explores a different part of the stack

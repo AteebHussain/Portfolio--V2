@@ -81,7 +81,6 @@ const Skills = () => {
             </h2>
             <p className="text-white/40 text-sm leading-relaxed max-w-md mt-2">
               A mix of enterprise-grade backend work, modern frontend stacks, and specialized simulation tooling.
-              Updated to reflect actual day-to-day at TCE and personal projects.
             </p>
           </div>
 

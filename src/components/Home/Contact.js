@@ -105,7 +105,7 @@ const Contact = () => {
 
           <div data-aos="fade-up" data-aos-delay="60" className="mb-6">
             <h2 className="text-5xl md:text-7xl font-black tracking-tighter text-white leading-none mb-2">
-              Let's build
+              Let's make
             </h2>
             <h2 className="text-5xl md:text-7xl font-black tracking-tighter leading-none">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyber-red via-cyber-yellow to-cyber-red bg-[length:200%_100%] animate-[gradient-x_4s_ease_infinite]">

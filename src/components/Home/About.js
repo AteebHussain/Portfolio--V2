@@ -129,12 +129,11 @@ const About = () => {
               <div className="about-photo-frame">
                 <div className="about-photo-inner">
                   <img
-                    src="/img/IMG_7085.jpeg"
+                    src="/img/cropped_rect_image.jpeg"
                     alt="Syed Ateeb"
                     className="w-full object-cover aspect-[3/4]"
-                    style={{ filter: "grayscale(40%) contrast(1.05)", objectPosition: "center top" }}
+                    style={{ objectPosition: "center top" }}
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-cyber-black/80 via-transparent to-transparent" />
                 </div>
               </div>
               <div className="absolute -right-4 top-8 bottom-8 w-px bg-gradient-to-b from-transparent via-cyber-yellow/30 to-transparent" />
